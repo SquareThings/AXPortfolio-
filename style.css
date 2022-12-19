@@ -13,6 +13,15 @@ body {
     z-index: -1;
 }
 
+p {
+    margin-bottom: 5%;
+}
+
+ul {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
 a {
     text-decoration: none;
     color: rgb(252, 249, 171);
@@ -142,11 +151,18 @@ a.nav-link:active {
     text-align: center;
 }
 
+.flex-containerInvTop {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
 .flex-containerInvRight {
     width: 60vw;
     height: 20vw;
     display: flex;
-    flex-flow: row wrap;
     justify-items: right;
     align-items: flex-start;
     text-align: center;
@@ -229,6 +245,12 @@ div {
 .mockUp4 {
     margin-bottom: 2vw;
     width: 30vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.mockUp5 {
+    width: 27vw;
     height: auto;
     overflow: hidden;
 }
@@ -564,4 +586,16 @@ a.fill-div {
     margin: 5% 0% 5% 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+#MAKESMALL {
+
+    max-width: 350px;
+    margin: 10px;
+}
+
+
+#MAKESMALL2 {
+    max-height: 350px;
+    margin: 10px;
 }

@@ -141,6 +141,7 @@ figure>img {
 figcaption>a {
     color: #fff;
     text-decoration: underline;
+    margin-bottom: 10%;
 }
 
 figcaption>a:hover {
