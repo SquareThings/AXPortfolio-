@@ -55,7 +55,7 @@ a.nav-link:active {
 } */
 
 .landing {
-    height: 1050px;
+    height: 800px;
 }
 
 .about {
@@ -375,7 +375,6 @@ div {
     top: 0;
     left: 0;
     z-index: -1;
-    transform: scaleX(-1);
 }
 
 
